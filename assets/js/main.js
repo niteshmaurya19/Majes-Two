@@ -1,7 +1,7 @@
 // Admin Configuration
 const CONFIG = {
   whatsappNumber: "919648525366", // Replace with actual business WhatsApp number (include country code, e.g., 91 for India)
-  web3FormsKey: "4f4a8b84-4659-4abc-9413-cb50e8d9886e" // Paste Web3Forms Access Key here to enable email notifications
+  web3FormsKey: CONFIG.WEB3FORMS_KEY // Paste Web3Forms Access Key here to enable email notifications
 };
 
 document.addEventListener("DOMContentLoaded", () => {
