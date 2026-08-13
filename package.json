@@ -1,0 +1,16 @@
+{
+  "name": "majes-two-website",
+  "version": "1.0.0",
+  "description": "Static e-commerce website for Majes Two handmade resin products",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y browser-sync start --server --files \"*.html, assets/css/*.css, assets/js/*.js\""
+  },
+  "keywords": [
+    "resin",
+    "handmade",
+    "ecommerce"
+  ],
+  "author": "Nitesh Maurya",
+  "license": "ISC"
+}
