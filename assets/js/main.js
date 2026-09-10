@@ -1,7 +1,7 @@
-// Admin Configuration
+// Load Configuration from window.APP_CONFIG (loaded via config.js, which is git-ignored)
 const CONFIG = {
-  whatsappNumber: "919648525366", // Replace with actual business WhatsApp number (include country code, e.g., 91 for India)
-  web3FormsKey: "edd79af3-871b-44af-a19e-69d2b2458efc" // Paste Web3Forms Access Key here to enable email notifications
+  whatsappNumber: (window.APP_CONFIG && window.APP_CONFIG.whatsappNumber) || "919648525366",
+  web3FormsKey: (window.APP_CONFIG && window.APP_CONFIG.web3FormsKey) || ""
 };
 
 document.addEventListener("DOMContentLoaded", () => {
